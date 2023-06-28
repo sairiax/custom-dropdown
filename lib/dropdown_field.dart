@@ -107,19 +107,10 @@ class _DropDownFieldState extends State<_DropDownField> {
       onChanged: widget.onChanged,
       style: widget.style,
       decoration: InputDecoration(
-        isDense: true,
-        contentPadding: _contentPadding,
         suffixIcon: widget.suffixIcon ?? _textFieldIcon,
         hintText: widget.hintText,
         hintStyle: widget.hintStyle,
-        fillColor: widget.fillColor,
-        filled: true,
-        errorStyle: widget.errorText != null ? widget.errorStyle : _noTextStyle,
-        border: border,
-        enabledBorder: border,
-        focusedBorder: border,
-        errorBorder: errorBorder,
-        focusedErrorBorder: errorBorder,
+        border: OutlineInputBorder(),
       ),
     );
   }
