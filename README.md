@@ -2,6 +2,8 @@
 
 **Custom Dropdown** package lets you add customizable animated dropdown widget.
 
+* This plugin has been modified in order to look like a material3 TextField
+
 [![pub.dev](https://img.shields.io/pub/v/animated_custom_dropdown.svg?style=flat?logo=dart)](https://pub.dev/packages/animated_custom_dropdown)
 [![likes](https://img.shields.io/pub/likes/animated_custom_dropdown)](https://pub.dev/packages/animated_custom_dropdown/score)
 [![popularity](https://img.shields.io/pub/popularity/animated_custom_dropdown)](https://pub.dev/packages/animated_custom_dropdown/score)
